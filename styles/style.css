@@ -98,6 +98,10 @@ header {
   width: 1140px;
   height: 1395px;
   padding: 80px 97px;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .why-section-title {
@@ -110,6 +114,7 @@ header {
   font-weight: 800;
   line-height: 37px;
   text-align: center;
+  /* border: 2px solid red; */
 }
 
 .why-section-subtitle {
@@ -123,6 +128,7 @@ header {
   font-weight: 400;
   line-height: 26px;
   text-align: center;
+  /* border: 2px solid red; */
 }
 
 .first-article,
@@ -145,6 +151,7 @@ header {
 .second-article,
 .third-article {
   display: flex;
+  justify-content: space-around;
 }
 
 .first-content,
@@ -152,7 +159,7 @@ header {
 .third-content {
   width: 477px;
   height: 220px;
-  margin: 0px 98px;
+  /* margin: 0px 98px; */
 }
 
 .first-content-title,
@@ -235,6 +242,10 @@ header {
   margin: 10px 0px;
 }
 
+.second-section-video .video {
+  border-radius: 16px;
+}
+
 /* second-section ends */
 
 /* third-section starts */
@@ -295,8 +306,8 @@ header {
   background: rgba(255, 223, 0, 0.05);
 }
 
-.third-section-container img {
-}
+/* .third-section-container img {
+} */
 
 .third-section-container h1 {
   margin: 8px 0px;
@@ -401,3 +412,57 @@ header {
   color: rgb(255, 255, 255);
   border: none;
 }
+
+/* fourth section ends  */
+
+/* footer starts  */
+.footer {
+  width: 1440px;
+  height: 100px;
+  padding: 32px 150px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+  /* border: 2px solid red; */
+  margin: 60px auto;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-container h1 {
+  /* width: 390px; */
+  height: 24px;
+  margin: 0px 16px;
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: center;
+}
+
+.footer-container i {
+  width: 36px;
+  height: 36px;
+  font-size: 36px;
+}
+
+.fa-facebook {
+  color: #0866ff;
+}
+
+.fa-github {
+  color: black;
+}
+
+.fa-linkedin {
+  color: #0c66c4;
+}
+
+.name {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 800;
+}
+
+/* footer ends  */
