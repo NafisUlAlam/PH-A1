@@ -326,3 +326,78 @@ header {
 }
 
 /* third section ends */
+
+/* fourth section starts  */
+.fourth-section {
+  width: 1140px;
+  height: 314px;
+  margin: 60px auto;
+  /* border: 2px solid red; */
+  padding: 64px 48px;
+  border-radius: 16px;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("../assets/handshake.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fourth-section h1 {
+  width: 292px;
+  height: 36px;
+  margin: 16px 0px;
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+}
+
+.fourth-section p {
+  width: 606px;
+  height: 52px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  margin: 16px 0px;
+}
+
+.fourth-section input {
+  width: 548px;
+  height: 57px;
+  padding: 19px 20px;
+  margin: 0px 4px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+}
+
+.fourth-section button {
+  width: 120px;
+  height: 58px;
+  margin: 0px 4px;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: center;
+}
+
+.fourth-section button:hover {
+  cursor: pointer;
+  background: rgb(13, 19, 33);
+  color: rgb(255, 255, 255);
+  border: none;
+}
