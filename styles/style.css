@@ -18,6 +18,7 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 60px;
 }
 
 .hero-container {
@@ -189,4 +190,50 @@ header {
   background-color: white;
 }
 
-/* second section ends */
+/* first section ends */
+
+/* second section starts */
+.second-section {
+  width: 1140px;
+  height: 777px;
+  /* border: 2px solid red; */
+  margin: 0 auto;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-section-title {
+  margin: 24px 0px;
+  width: 852px;
+  height: 39px;
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  text-align: center;
+}
+.second-section-subtitle {
+  width: 852px;
+  height: 52px;
+  margin: 24px 0px;
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
+
+.second-section-video {
+  width: 1140px;
+  height: 614px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  padding: 32px;
+  display: flex;
+  margin: 10px 0px;
+}
+
+/* second-section ends */
