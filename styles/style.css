@@ -6,6 +6,7 @@
   padding: 0;
   font-family: "Azeret Mono", monospace;
   /* background-color: aqua; */
+  scroll-behavior: smooth;
 }
 
 /* banner section starts */
